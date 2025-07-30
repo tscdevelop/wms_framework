@@ -1,0 +1,49 @@
+{
+    "ProjectConfig": {
+        "ApplicationName": "LAB",
+        "SystemName": "ระบบบริหารจัดการคลังสินค้า",
+        "BaseURL": "http://tw-server:3200"
+    },
+    "ServerBackend":{
+      "Port": 3202,
+      "Name": "TW-SERVER",
+      "Local": "localhost"
+    },
+    "JwtConfig": {
+        "Key": "SecretKey@TW-EP_WebAPI",
+        "Issuer": "http://tw-server:3202",
+        "Audience": "TWEngineeringAndProgramming.info",
+        "ExpireMinutes": "480"
+    },
+    "Database": {
+      "type": "mysql",
+      "host": "localhost",
+      "port": 3306,
+      "username": "sa",
+      "password": "sysdba",
+      "database": "db_wms_lpi"
+    },
+    "DatabaseServer": {
+      "type": "mysql",
+      "host": "tw-server",
+      "port": 3306,
+      "username": "sa",
+      "password": "sysdba",
+      "database": "db_wms_lpi"
+    },
+    "DatabaseConnections": {
+        "ConnStr": "mysql://sa:sysdba@localhost/db_wms_lpi",
+        "ConnStrServer": "mysql://sa:sysdba@tw-server/db_wms_lpi"
+    },
+    "PathFile":
+    {
+      "dirImage": "src/public/images",
+      "dirUploadOutboundToolingImage": "src/public/uploads/outbtl_image"
+    },
+    "BackupConfig": {
+        "mysqldumpPath": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqldump",
+        "mysqlPath": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysql",
+        "backupPath": "C:\\MySQLBackup\\db_wms_lpi"
+    },
+    "SOFT_DELETE": false 
+}

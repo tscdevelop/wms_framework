@@ -1,0 +1,452 @@
+{
+    "control": {
+        "ok": "ตกลง",
+        "save"   : "บันทึก",
+        "cancel": "ยกเลิก",
+        "check": "ตรวจสอบ",
+        "reset": "รีเซ็ต",
+        "delete": "ลบ",
+        "search": "ค้นหา",
+        "add": "เพิ่ม",
+        "edit": "แก้ไข",
+        "add_pet": "เพิ่มข้อมูลสัตว์เลี้ยงใหม่",
+        "download_qr": "ดาวน์โหลด QR",
+        "download_pdpa": "ดาวน์โหลดเอกสาร PDPA",
+        "search_history": "ค้นหาประวัติ",
+        "add_employee":"เพิ่มพนักงาน",
+        "search_information":"ค้นหาข้อมูล",
+        "add_data": "เพิ่มข้อมูล",
+        "action": "จัดการ",
+        "auto_calculate": "คำนวณอัตโนมัติ",
+        "permission":"กำหนดสิทธิ์",
+        "add_info": "ข้อมูลเพิ่มเติม",
+        "submenu": "เมนูย่อย",
+        "regist_cust_pet": "ลงทะเบียนลูกค้าและสัตว์เลี้ยง",
+        "import": "Import",
+        "report": "Report",
+        "export": "Export",
+        "create_bill": "สร้างใบเบิก",
+        "confirm_edit": "ยืนยันการเเก้ไข",
+        "create_waybill": "สร้างใบนำส่ง",
+        "print_document": "พิมพ์เอกสาร",
+        "approve": "อนุมัติ",
+        "rejected":"ไม่อนุมัติ",
+        "confirm_use":"ยืนยันการเข้าใช้งาน",
+        "confirm_menu_display":"ยืนยันการแสดงผลเมนู",
+        "confirm":"ยืนยัน",
+        "return":"ย้อนกลับ",
+        "create_master":"สร้าง Master Data",
+        "finish":"เสร็จสิ้น",
+        "confirm_withdraw":"ยืนยันการเบิก",
+        "print":"Print",
+        "create_bom":"สร้าง BOM",
+        "confirm_return":"ยืนยันการคืน"
+
+    },
+    "validation": {
+        "required_field": "กรุณาระบุ"
+    },
+    "message": {
+        "successful": "สำเร็จ"       
+    },
+    "title" :{
+        "menu":"เมนูข้อมูลตั้งต้น",
+        "factory":"ตั้งค่า / โรงงาน",
+        "warehouse":"ตั้งค่า / Warehouse",
+        "zone":"ตั้งค่า / Zone",
+        "location":"ตั้งค่า / Location",
+        "supplier":"ตั้งค่า / Supplier",
+        "dockyard":"ตั้งค่า / ท่ารถ",
+        "unit":"ตั้งค่า / หน่วย",
+        "raw_material":"ตั้งค่า / ประเภท Raw Material",
+        "fg":"ตั้งค่า / ประเภท FG",
+        "inrawmaterial":"Inbound / Raw Material",
+        "inrawadd":"Inbound / Raw Material / เพิ่ม",
+        "infg":"Inbound / FG",
+        "intooling":"Inbound / Tooling",
+        "outraw":"Outbound / เบิก Raw Material",
+        "outrawcreate":"Outbound / เบิก Raw Material / สร้างใบเบิก",
+        "outfg":"Outbound / เบิก FG",
+        "outtooling":"Outbound / เบิก-คืน Tooling",
+        "semi":"ตั้งค่า / ประเภท Semi",
+        "tooling":"ตั้งค่า / ประเภท Tooling",
+        "product":"ตั้งค่า / รายการสินค้า",
+        "criterion":"ตั้งค่า / เกณฑ์",
+        "rawinfo":"ตั้งค่า / ข้อมูล Raw Material",
+        "fginfo":"ตั้งค่า / ข้อมูล FG",
+        "semifg":"ตั้งค่า / ข้อมูล Semi FG",
+        "toolinginfo":"ตั้งค่า / ข้อมูล Tooling"
+        
+
+        
+    },
+    "item": {
+        "login": "เข้าสู่ระบบ",
+        "menu":"เมนู",
+        "all":"ทั้งหมด",
+        "description": "กรุณากรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ",
+        "validate": "ตรวจสอบและยืนยันผู้ใช้",
+        "user": "ผู้ใช้",
+        "employee": "พนักงาน",
+        "employee_and_user": "พนักงานและผู้ใช้"
+    },
+    "field": {
+        "user_id": "ไอดีผู้ใช้",
+        "username": "ชื่อผู้ใช้งาน",
+        "password": "รหัสผ่าน",
+        "confirm_password": "ยืนยันรหัสผ่าน",
+        "role": "สิทธิ์การใช้งานระบบ",
+        "first_name": "ชื่อ",
+        "last_name": "นามสกุล",
+        "title_name": "คำนำหน้าชื่อ",
+        "birth_date": "วันเกิด",
+        "age": "อายุ",
+        "year": "ปี",
+        "contact_1": "เบอร์ติดต่อ #1",
+        "contact_2": "เบอร์ติดต่อ #2",
+        "line_id": "ไอดีไลน์",
+        "email": "อีเมล",
+        "passport_number": "เลขที่หนังสือเดินทาง",
+        "idcard_number": "เลขบัตรประจำตัวประชาชน",
+        "idcard_issue_date": "วันที่ออกบัตร",
+        "religion": "ศาสนา",
+        "idcard_expiry_date": "วันที่บัตรหมดอายุ",
+        "nationality": "สัญชาติ",
+        "ethnicity": "เชื้อชาติ",
+        "province": "จังหวัด",
+        "district": "เขต/อำเภอ",
+        "subdistrict": "แขวง/ตำบล",
+        "road": "ถนน",
+        "alley": "ซอย",
+        "address": "ที่อยู่",
+        "postal_code": "รหัสไปรษณีย์",
+        "address_additional": "ข้อมูลอื่น ๆ",
+        "current_address_same": "ที่อยู่เดียวกันกับบัตรประชาชน",
+        "name_en": "ชื่อภาษาอังกฤษ",
+        "name_th": "ชื่อภาษาไทย",
+        "photo": "รูปภาพ",
+        "employee_id": "ไอดี พนักงาน",
+        "employee_by_user_id": "พนักงานตาม user ID",
+        "employee_by_username": "พนักงานตาม username",
+        "title_lab": "รายการตั้งค่าราคา LAB",
+        "lab_name": "ชื่อแล็ป",
+        "lab_price_cost": "ราคาทุน",
+        "lab_price_sale": "ราคาขาย",
+        "type": "ประเภท",
+        "expense_type": "ประวัติค่าใช้จ่าย",
+        "first_name_en":"ชื่อ (EN)",
+        "last_name_en":"นามสกุล (EN)",
+        "internal": "ลูกค้าภายใน",
+        "external": "ลูกค้าภายนอก",
+        "auto_calculate": "คำนวณอัตโนมัติ",
+        "personal_information" :"ข้อมูลส่วนตัว",
+        "username_required": "กรุณากรอกชื่อผู้ใช้",
+        "password_required": "กรุณากรอกรหัสผ่าน"
+
+    },
+    "login": {},
+    "user": {
+        "edit_user":"เเก้ไขผู้ใช้",
+        "add_user":"เพิ่มผู้ใช้"
+    },
+   
+    
+    "menu":{
+        "home": "หน้าหลัก",
+        "login":"เข้าสู่ระบบ",
+        "logout":"ออกจากระบบ",
+        "bom":"BOM",
+        "noti":"เเจ้งเตือน",
+
+        "data":"ข้อมูลตั้งต้น",
+        "factory":"ตั้งค่า / โรงงาน",
+        "employee":"ข้อมูลพนักงาน",
+        "warehouse":"ตั้งค่า / Warehouse",
+        "zone":"ตั้งค่า / Zone",
+        "role":"สิทธิ์การใช้งาน",
+        "location":"ตั้งค่ า/ Location",
+        "supplier":"ตั้งค่า / Supplier",
+        "dockyard":"ตั้งค่า / ท่ารถ",
+        "unit":"ตั้งค่า / หน่วย",
+        "raw":"ตั้งค่า / ประเภท Raw Material",
+        "finishedgood":"ตั้งค่า / ประเภท FG",
+        "tooling":"ตั้งค่า / ประเภท Tooling",
+        "semi":"ตั้งค่า / ประเภท Semi FG",
+        "semifg":"ข้อมูล Semi FG",
+        "rawinfo":"ข้อมูล Raw Material",
+        "fginfo":"ข้อมูล FG",
+        "toolinginfo":"ข้อมูล Tooling",
+        "inbound":"Inbound",
+        "inrawmaterial":"Inbound / Raw Material",
+        "infg":"Inbound / FG",
+        "insemifg":"Inbound / Semi FG",
+        "intooling":"Inbound / Tooling",
+        "outbound":"Outbound",
+        "outraw":"Outbound / Raw Material",
+        "outfg":"Outbound / FG",
+        "outsemifg":"Outbound / Semi FG",
+        "outtooling":"Outbound / Tooling",
+        "product":"รายการสินค้า",
+        "criterion":"เกณฑ์",
+        "track":"ติดตามการขนส่ง",
+        "pickupwithdraw":"รายการรับทั้งหมด",
+        "confirmsending":"การเบิก-คืนสินค้า FG",
+        "confirmsemi":"การเบิก-คืนสินค้า Semi FG",
+        "inventory":"Inventory",
+        "invraw":"Raw Material",
+        "invsemifg":"Semi FG",
+        "invfg":"FG",
+        "invtooling":"Tooling",
+        "inbtransaction":"Inbound Transaction ",
+        "inbtranraw":"Raw Material",
+        "inbtransemi":"Semi FG",
+        "inbtranfg":"FG",
+        "inbtrantooling":"Tooling",
+        "outbtransaction":"Outbound Transaction",
+        "outbtranraw":"Raw Material",
+        "outbtransemi":"Semi FG",
+        "outbtranfg":"FG",
+        "outbtrantooling":"Tooling",
+        "shelflife":"แจ้งเตือน Shelf Life ",
+        "notimini":"แจ้งเตือน Minimum Stock",
+        "notitool":"แจ้งเตือน Tooling",
+        "notiapp":"แจ้งเตือน Approve",
+        
+        
+
+
+        "blank":"หน้าว่าง",
+        "user":"ผู้ใช้"
+    },
+
+
+    "home":{
+        "factory": "ตั้งค่าโรงงาน",
+        "warehouse":"ตั้งค่าคลัง",
+        "zone":"ตั้งค่า Zone",
+        "location":"ตั้งค่า Location",
+        "supplier":"ตั้งค่า Supplier",
+        "transportyard":"ตั้งค่าท่ารถ",
+        "raw_material_setting":"ตั้งค่าประเภท Raw Material",
+        "fg_setting":"ตั้งค่าประเภท FG",
+        "semi_fg_setting":"ตั้งค่าประเภท Semi FG",
+        "tooling_setting":"ตั้งค่าประเภท Tooling",
+        "unit":"ตั้งค่าหน่วย",
+        "criterion":"ตั้งค่าเกณฑ์",
+        "raw_info":"ตั้งค่าข้อมูล Raw Material",
+        "fg_info":"ตั้งค่าข้อมูล FG",
+        "semi_fg_info":"ตั้งค่าข้อมูล Semi FG",
+        "tooling_info":"ตั้งค่าข้อมูล Tooling",
+        "role":"ตั้งค่าผู้ใช้งานเเละสิทธิ์การเข้าถึง"
+    },
+
+
+    "factory":{
+        "factory_code": "รหัสโรงงาน",
+        "factory_name":"ชื่อโรงงาน",
+        "factory_contact":"เบอร์ติดต่อ",
+        "factory_address":"ที่อยู่",
+        "factory_action":"จัดการ",
+        "code":"รหัส",
+        "factory":"โรงงาน"
+
+    },
+
+    "warehouse":{
+        "warehouse_code": "รหัสคลัง",
+        "warehouse_name": "ชื่อคลัง",
+        "warehouse_type": "ประเภทคลัง",
+        "warehouse_fac": "โรงงาน",
+        "warehouse_action": "จัดการ"
+    },
+
+    "zone":{
+        "zone_code": "รหัส Zone",
+        "zone_name": "ชื่อ Zone",
+        "zone_wh": "คลัง",
+        "zone_fac": "โรงงาน",
+        "zone_remark": "หมายเหตุ",
+        "zone_action": "จัดการ",
+        "code": "รหัส",
+        "zone": "โซน"
+    },
+
+    "location":{
+        "location_code": "รหัส Location",
+        "location_name": "ชื่อ Location",
+        "location_zone": "Zone",
+        "location_remark": "หมายเหตุ",
+        "code": "Code",
+        "zone": "Zone",
+        "wh": "คลัง",
+        "factory": "โรงงาน",
+        "location": "Location"
+    },
+
+
+    "supplier": {
+        "sup_code": "รหัส Supplier",
+        "sup_name": "ชื่อ Supplier",
+        "sup_tax_id": "เลขประจำตัวผู้เสียภาษี",
+        "sup_phone": "เบอร์ติดต่อ",
+        "sup_address": "ที่อยู่",
+        "sup_email": "อีเมล",
+        "sup_remark": "หมายเหตุ",
+        "code": "รหัส",
+        "supplier": "Supplier",
+        "email": "E-mail",
+        "credit": "เครดิตชำระเงิน (วัน)"
+        
+    },
+
+
+    "dockyard": {
+        "dock_code":"รหัสท่ารถ",
+        "dock_name":"ชื่อท่ารถ",
+        "dock_phone":"เบอร์ติดต่อ",
+        "dock_address":"ที่อยู่",
+        "dock_remark": "หมายเหตุ",
+        "code":"รหัส",
+        "dockyard":"ท่ารถ"
+    },
+    
+    "raw_material": {
+        "raw_code":"รหัส",
+        "raw_type":"ประเภท",
+        "raw_remark":"หมายเหตุ"
+    },
+
+    "fg": {
+        "fg_code":"รหัส",
+        "fg_type":"ประเภท",
+        "fg_remark":"หมายเหตุ"
+    },
+
+
+    "semi": {
+        "semi_code":"รหัส",
+        "semi_type":"ประเภท",
+        "semi_remark":"หมายเหตุ"
+    },
+
+
+    "semifg": {
+      "semifg_code":"รหัส",
+      "semifg_name":"ชื่อ",
+      "semifg_width":"ความกว้าง",
+      "semifg_thickness":"ความหนา",
+      "semifg_length":"ความยาว",
+      "semifg_size":"ขนาด (หน่วย)"
+  },
+   
+  
+  "raw_data": {
+      "raw_code":"รหัส",
+      "raw_name":"ชื่อ",
+      "raw_width":"ความกว้าง",
+      "raw_thickness":"ความหนา",
+      "raw_length":"ความยาว",
+      "raw_weight":"น้ำหนัก",
+      "raw_size":"ขนาด (หน่วย)",
+      "raw_unit":"หน่วย",
+      "raw_type":"ประเภท",
+      "raw_criterion":"เกณฑ์",
+      "raw_Unit_product":"หน่วยของสินค้า",
+      "raw_exp_cri":"เกณฑ์วันหมดอายุ",
+      "raw_rem_cri":"เกณฑ์จำนวนคงเหลือ",
+      "raw_cri_wd_return":"เกณฑ์วันเบิก-คืน",
+      "raw_Unit_weight":"น้ำหนักต่อหน่วย"
+      
+  },
+  "fg_data": {
+      "fg_code":"รหัส",
+      "fg_name":"ชื่อ",
+      "fg_width":"ความกว้าง",
+      "fg_thickness":"ความหนา",
+      "fg_length":"ความยาว",
+      "fg_weight":"น้ำหนัก",
+      "fg_size":"ขนาด (หน่วย)",
+      "fg_Unit_weight":"น้ำหนักต่อหน่วย"
+      
+  },
+    
+"crt": {
+      "crt_name":"ชื่อเกณฑ์",
+      "crt_remark":"หมายเหตุ",
+      "crt_exp":"กำหนดวันหมดอายุ",
+      "crt_withdraw":"กำหนดวันเบิก-คืนอุปกรณ์",
+      "crt_remaining":"กำหนดจำนวนคงเหลือ",
+      "crt_exp_lmh":"กำหนดวันหมดอายุ (Low , Medium , High)",
+      "crt_withdraw_lmh":"กำหนดวันเบิก-คืนอุปกรณ์ (Low , Medium , High)",
+      "crt_remaining_lmh":"กำหนดจำนวนคงเหลือ (Low , Medium , High)",
+
+
+
+      "crt_day":"วัน"
+  },
+
+
+
+    "role":{
+        "role_title_1":"เพิ่มสิทธิ์การใช้งาน",
+        "role_title_2":"เเก้ไขสิทธิ์การใช้งาน",
+        "role_code":"รหัสสิทธิ์",
+        "name":"ชื่อสิทธ์การใช้งาน",
+        "decription":"คำอธิบายการใช้สิทธิ์",
+        "permission":"การอนุญาต"
+    },
+
+
+"employee": {
+        "employee_status" : "สถานะ",
+        "employee_status_1": "สร้างข้อมูลพนักงานใหม่",
+        "employee_status_2": "เเก้ไขข้อมูลพนักงาน",
+        "employee" : "ข้อมูลพนักงาน",
+        "emp_code_1": "รหัสพนักงาน",
+        "emp_code_2": "สร้างรหัสอัตโนมัติ",
+        "employee_name":"ชื่อพนักงาน",
+        "nick_name": "ชื่อเล่น",
+        "department": "แผนก",
+        "position": "ตำแหน่ง",
+        "title_name": "คำนำหน้า",
+        "blood_group": "กรุ๊ปเลือด",
+        "contact": "เบอร์ติดต่อ",
+        "address_number": "บ้านเลขที่",
+        "search_employee":"ค้นหาข้อมูลพนักงาน",
+        "employee_list": "รายการพนักงาน",
+        "actions": "จัดการ",
+        "employee_active_1":"ใช้งาน",
+        "employee_active_2":"ไม่ใช้งาน",
+        "employee_sign":"อัปโหลดรูปลายเซ็น",
+        "employee_photo":"อัปโหลดรูปพนักงาน",
+        "emp_status": "สถานะพนักงาน"
+
+    },
+
+
+    "action":{
+    "act_view": "เเสดงผลอย่างเดียว",
+        "act_create": "เพิ่ม",
+        "act_delete":"ลบ",
+        "act_edit":"สามารถเเก้ไขได้",
+        "act_save":"บันทึก",
+        "act_search":"ค้นหา",
+        "lab_compare":"เปรียบเทียบผล LAB",
+        "lab_create":"เพิ่มตรวจ LAB",
+        "lab_ext":"LAB นอก",
+        "lab_hist":"ประวัติการตรวจ LAB",
+        "lab_in":"LAB ใน",
+        "lab_items":"รายการตรวจ",
+        "lab_keyresult":"กรอกข้อมูล",
+        "lab_reject":"ปฎิเสธสิ่งตรวจ",
+        "lab_send":"ส่งสิ่งตรวจ",
+        "user_permission":"กำหนดสิทธิ์ผู้ใช้งานระบบ",
+        "cust_info":"ข้อมูลลูกค้า",
+        "cust_edit":"เเก้ไขข้อมูลลูกค้า",
+        "pet_add":"เพิ่มสัตว์เลี้ยง",
+        "pet_edit":"เเก้ไขข้อมูลสัตว์เลี้ยง",
+        "lab_send_in":"ส่งตรวจ LAB ใน",
+        "lab_send_ext":"ส่งตรวจ LAB นอก"
+    }
+
+}
